@@ -108,4 +108,20 @@ document.getElementById('line_bottom').addEventListener('click', function ()
     )
   });
 });
+
+document.getElementById('bottom_inquery_button').addEventListener('click', function ()
+{
+  fetch('/track-click', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify(
+      {
+        buttonId: 'bottom_inquery_button',
+        clickedDate: new Date().toLocaleString('ja-JP', { timeZone: 'Asia/Tokyo' })
+      },
+    )
+  });
+});
 // ラインアイコンをクリックしたときの処理 end
