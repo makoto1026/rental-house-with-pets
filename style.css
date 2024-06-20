@@ -350,6 +350,12 @@ body {
   width: 100%;
 }
 
+.inquiry {
+  padding: 40px 0;
+}
+
+/* プライバシーポリシーページ */
+
 .privacy-policy-section {
   width: 100%;
   display: flex;
@@ -385,7 +391,7 @@ body {
   gap: 10px;
   margin: 0 auto 60px 0;
   padding: 20px 20px 80px 20px;
-  height: 100px;
+  height: 120px;
   background-color: #f2ca7e;
   font-weight: 700;
   color: #8c4a32;
@@ -457,4 +463,16 @@ body {
 
 .floating {
   animation: floatAnimation 1.5s ease-in-out infinite;
+}
+
+/* 問い合わせセクション */
+.inquiry {
+  height: 1850px;
+  width: 100%;
+  padding-top: 80px;
+
+  div {
+    font-size: 40px;
+    text-align: center;
+  }
 }
