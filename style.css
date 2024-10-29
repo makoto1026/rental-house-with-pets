@@ -280,6 +280,62 @@ body {
   width: 100%;
 }
 
+.insta_section {
+  width: 100%;
+}
+
+.insta-image-container {
+  display: flex;
+  position: relative;
+}
+
+.insta-bg-image {
+  width: 100%;
+}
+
+.insta-image-left {
+  width: 31%;
+  position: absolute;
+  top: 26%;
+  left: 3%;
+}
+
+.insta-image-center {
+  width: 32%;
+  position: absolute;
+  top: 60%;
+  left: 34%;
+}
+
+.insta-image-right {
+  width: 31%;
+  position: absolute;
+  top: 31%;
+  right: 3%;
+}
+
+.insta-video-left {
+  width: 26%;
+  position: absolute;
+  top: 59%;
+  left: 5%;
+}
+
+.insta-video-center {
+  width: 23%;
+  position: absolute;
+  top: 27%;
+  left: 38%;
+}
+
+.insta-video-right {
+  width: 26%;
+  position: absolute;
+  top: 62%;
+  right: 4%;
+}
+
+
 .fourth-section {
   width: 100%;
 }
@@ -290,6 +346,13 @@ body {
 
 .fourth-image {
   width: 100%;
+}
+
+.fourth-image-text {
+  position: absolute;
+  width: 60%;
+  top: 6%;
+  left: 2%;
 }
 
 .slide-container {
